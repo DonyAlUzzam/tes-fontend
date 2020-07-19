@@ -13,7 +13,7 @@ export default class Book extends Component{
         .then(response => this.setState({
             book:response.data
         }))
-        console.log(this.state)
+        console.log(this.state.book,"d")
     }
 
 
